@@ -15,3 +15,16 @@ console.log(`Final amount after discount: $${finalAmount}`);
 
 
 
+// Task 2 - Sales Report
+
+let sales = [90, 70, 100, 60, 30];
+//declared an array sales with 5 different values 
+
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++) 
+    {totalSales += sales[i]};
+//I used a for loop which helped calculate the total sales 
+
+console.log(`Total sales: $${totalSales}`);
+
