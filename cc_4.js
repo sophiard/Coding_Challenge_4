@@ -67,5 +67,17 @@ for (let product of products) {
 
 
 
+//Task 7 - Order Processing
+
+let orders = [44, 55, 66];
+//declared an array orders with 3 order id
+
+ orders.forEach((order, index) => {
+     console.log(`Order ${index + 1}: ID ${order}`);
+});
+// used the foreach() method to log each order id with template literals 
+
+
+
 
 
