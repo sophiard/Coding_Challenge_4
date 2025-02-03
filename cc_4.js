@@ -78,6 +78,17 @@ let orders = [44, 55, 66];
 // used the foreach() method to log each order id with template literals 
 
 
+// Task 8 - Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+  }; //created the function calculateTax to calculate the amount of money tax costs
+  
+  const totalAmount = 500; // the amount not including tax  
+  const taxRate = 0.10; // this is with a 7% sales tax
+  
+  const tax = calculateTax(totalAmount, taxRate);
+  console.log(`The calculated tax is  $${tax}`);
+//logged the calculated tax
 
 
 
