@@ -92,3 +92,14 @@ function calculateTax(amount, taxRate) {
 
 
 
+// Task 9 - Discount Application
+const applyDiscount = (price, discountPercent) => price * discountPercent;
+
+const orderAmount = 5000; // order amount is 5000
+const discountRate = 0.15; // 15% discount
+
+const discount2 = applyDiscount(orderAmount, discountRate);
+console.log(`Discount2: $${discount2}`); 
+//Had to make disocunt discount2 becuase I already used discount 
+//logged the discount
+
