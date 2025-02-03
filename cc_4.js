@@ -44,6 +44,16 @@ let responses = 0;
  } while (responses < 3);
 // I used a do..while loop to log each responce count using a template literal
 
+//Task 5 - Employee Information
+let employee = { 
+    name: "Jack Black", 
+    position: "Actor", 
+    salary: 5000000   // declared object with properties
+};
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+};
+// used for...in loop with template literal to log eployee info
 
 
 
