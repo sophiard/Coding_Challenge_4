@@ -28,3 +28,12 @@ for (let i = 0; i < sales.length; i++)
 
 console.log(`Total sales: $${totalSales}`);
 
+// task 3
+
+let stock = 10; 
+while (stock > -1)
+     { console.log(`Amount of stock remaining: ${stock}`); stock--; };
+
+
+
+
