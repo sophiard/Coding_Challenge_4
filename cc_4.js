@@ -57,3 +57,15 @@ for (let property in employee) {
 
 
 
+//Task 6 - Product Listings.
+
+let products = ["traffic cone", "stoplight", "stop sign"]; 
+//declared an array procuts with three products
+for (let product of products) { 
+    console.log(`product: ${product}`); }
+// useda for...of loop to log each product name using a template literal
+
+
+
+
+
