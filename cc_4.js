@@ -103,3 +103,15 @@ console.log(`Discount2: $${discount2}`);
 //Had to make disocunt discount2 becuase I already used discount 
 //logged the discount
 
+
+//Task 10 - Loyalty Points
+
+const calculatePoints = (amount, dollarpoints) => amount / dollarpoints;
+
+const amountspent = 560;  // the total amount spent on order
+const dollarpoints = 10;  // points esrned per $10 spent
+
+const points = calculatePoints(amountspent, dollarpoints);
+
+console.log(`Amount of points earned: ${points}`); 
+//logged the amount of pointed earned
