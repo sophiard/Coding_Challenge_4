@@ -36,6 +36,14 @@ while (stock > -1)
 //used a while loop with a temperate literal to log each decrement 
 
 
+//task 4
+let responses = 0;
+ do { 
+    console.log(`customer responses: ${responses}`); 
+    responses++;
+ } while (responses < 3);
+// I used a do..while loop to log each responce count using a template literal
+
 
 
 
