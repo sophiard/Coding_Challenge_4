@@ -33,6 +33,8 @@ console.log(`Total sales: $${totalSales}`);
 let stock = 10; 
 while (stock > -1)
      { console.log(`Amount of stock remaining: ${stock}`); stock--; };
+//used a while loop with a temperate literal to log each decrement 
+
 
 
 
